@@ -178,6 +178,41 @@ iframe {
     margin-left: 1.2em;
 }
 
+.typing ul {
+    margin-top: 2em;
+    padding: 0;
+}
+
+.typing ul li {
+    z-index: 2;
+    font-size: 1em;
+    line-height: 1.8;
+    word-break: break-all;
+    color: white;
+}
+
+.typing-txt {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.typing ul li.on {
+    display: inline-block;
+}
+
+.typing li.gray {
+    color: #6e6e6e;
+}
+
+.typing li.top {
+    margin-top: 3.5em;
+}
+
+
+
 @media (max-width: 800px) {
     .web_nav {
         display: none;
